@@ -1,0 +1,14 @@
+
+[Unit]
+Description=My Shutdown Script 
+DefaultDependencies=no 
+Before=halt.target 
+reboot.target shutdown.target 
+
+[Service] 
+Type=oneshot 
+ExecStart=python3 /home/pi/shutdown_script.py 
+RemainAfterExit=true 
+
+[Install] 
+WantedBy=halt.target reboot.target shutdown.target
