@@ -11,7 +11,9 @@ The Music playlists can be changed in playlistmode.
 
 
 ## LCD 
-Scrolling Display
+<img src="Image/LCD.jpg" width="300" >
+
+
 ###  Features
 | Line  | Radio Stream  |  Music|
 |:---------|:---------|:--------|
@@ -34,7 +36,12 @@ Scrolling Display
 | random | random on/off | random on/off | |
 
 ## Volume
-On/Off Switch
+Rotary Encoder with integratet On/Off Switch.
+
+## Schematic
+<img src="Image/Schematic.gif" width="500" >
+
+
 
 # Todo:
  the volumencontrol is still done by the moOde player.
